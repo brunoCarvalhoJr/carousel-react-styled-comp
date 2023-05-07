@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const CarouselContainer = styled.div`
-    max-width: 800px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -17,7 +16,6 @@ export const CarouselSlide = styled.div`
 
 export const CarouselImage = styled.img`
     width: 100%;
-    height: 100%;
     object-fit: cover;
     border-radius: 50px;
     margin: 1rem;
@@ -36,6 +34,4 @@ export const CarouselButton = styled.button`
 
 export const DivButton = styled.div`
     margin-top: 20rem;
-    background-color: transparent;
-    margin-right: 75rem;
 `;
